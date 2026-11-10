@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
+
+  <!-- Nombre del paquete -->
+  <name>my_robot_description</name>
+
+  <!-- Version del paquete -->
+  <version>0.0.1</version>
+
+  <!-- Descripcion -->
+  <description>
+    Actividad 4: Descripcion de un brazo robotico
+    utilizando URDF, Xacro, RViz2 y Gazebo.
+  </description>
+
+  <!-- Informacion del responsable -->
+  <maintainer email="estudiante@example.com">
+    Estudiante
+  </maintainer>
+
+  <!-- Licencia -->
+  <license>Apache-2.0</license>
+
+  <!-- Herramientas necesarias -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Dependencias de ejecucion -->
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
+  <!-- Tipo de paquete -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+</package>
